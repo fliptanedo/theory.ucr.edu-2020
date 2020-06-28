@@ -28,10 +28,18 @@ Required: an updated installation of [Hugo](https://gohugo.io/getting-started/qu
    1. `title`
    2. `baseurl`
 
-4. Edit `params.toml` in the same directory
+4. Edit `params.toml` in the same directory: Name, biography, address... lots of little things to update. Do these quickly, we'll be modifying the widgets separately.
 
 5. Remove extra content in `content/home/`
-   Only keep: about, contact, index
+   Only keep: `about`, `contact`, `index`, `hero` (default to not shown), `slider` (default to not shown). 
+
+6. Remove extra folders: `post`, `publication
+
+7. Copy assets from old build.
+
+## Heavy Lifting
+
+The latest version of Hugo Academic changes the way [one customizes styles](https://sourcethemes.com/academic/docs/customization/#custom-theme), including how style sheets are applied. 
 
 ## Edits from the default theme
 
