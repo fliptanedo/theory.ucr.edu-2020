@@ -1,7 +1,7 @@
 # UCR hep-ph group website Readme
 
 by Flip Tanedo (flip.tanedo@ucr.edu)
-June 2020 edition
+June 2020 edition (Jun 28)
 
 ## Credit
 
