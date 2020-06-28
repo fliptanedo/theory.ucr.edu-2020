@@ -31,6 +31,7 @@ Required: an updated installation of [Hugo](https://gohugo.io/getting-started/qu
 4. Edit `params.toml` in the same directory
 
 5. Remove extra content in `content/home/`
+   Only keep: about, contact, index
 
 ## Edits from the default theme
 
