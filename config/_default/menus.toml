@@ -6,27 +6,42 @@
 [[main]]
   name = "Home"
   url = "#about"
-  weight = 10 
+  weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "News"
+  url = "#news"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Events"
+  url = "#seminar"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Faculty"
+  url = "#faculty"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Postdocs"
+  url = "#postdocs"
+  weight = 50
+
+[[main]]
+  name = "Students"
+  url = "#students"
   weight = 60
+
+[[main]]
+  name = "Research"
+  url = "#research"
+  weight = 70
+
+[[main]]
+  name = "Visit"
+  url = "#contact"
+  weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

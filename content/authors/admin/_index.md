@@ -69,6 +69,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
+We are the **UCR Particle Theory** group; part of the [Department of Physics & Astronomy](https://physics.ucr.edu) in the [College of Natural and Agricultural Sciences](https://cnas.ucr.edu) at [UC Riverside](https://www.ucr.edu).
 
 Our research explores the overlap of theoretical particle physics, astronomy, and cosmology. Our specialties include dark matter, neutrino flavor symmetries, baryogenesis, collider searches for new physics, and models of electroweak naturalness.
 

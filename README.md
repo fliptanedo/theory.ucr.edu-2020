@@ -66,7 +66,13 @@ The latest version of Hugo Academic changes the way [one customizes styles](http
 
    4. Create a `news.md` file and copy over. Note as of Hugo 0.55 shortcodes no longer work the same way. The call now looks like `{{< twitter UCR_HEP_Theory >}}`, the shortcode now refers to the first argument as `{{ .Get 0 }}`. 
 
+   5. Copy over the `seminar.md` file that calls the Google calendar.
 
+   6. Copy over the people, one markdown file at a time. Don't forget to update these.
+
+   7. Copy `.config/menus.toml`.
+
+   8. Copy over separate sub-sites (e.g. SPTA, ML2019, OpenHouse, PhysicsHackDay, SoCalBSM2017). These go into the `./static/` folder.
 
 ## Custom Theme
 
