@@ -72,4 +72,5 @@ user_groups:
 
 Our research explores the overlap of theoretical particle physics, astronomy, and cosmology. Our specialties include dark matter, neutrino flavor symmetries, baryogenesis, collider searches for new physics, and models of electroweak naturalness.
 
+![logo](./img/logos/UCR.png) ![logo](./img/logos/pna.png) ![logo](./img/logos/uc_seal_lock-up_blue_cmyk.png) ![logo](./img/logos/NASA.png)  ![logo](./img/logos/US-DeptOfEnergy-Seal.png)
 

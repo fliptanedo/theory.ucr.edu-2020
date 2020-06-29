@@ -39,7 +39,36 @@ Required: an updated installation of [Hugo](https://gohugo.io/getting-started/qu
 
 ## Heavy Lifting
 
-The latest version of Hugo Academic changes the way [one customizes styles](https://sourcethemes.com/academic/docs/customization/#custom-theme), including how style sheets are applied. 
+The latest version of Hugo Academic changes the way [one customizes styles](https://sourcethemes.com/academic/docs/customization/#custom-theme), including how style sheets are applied.
+
+1. Copy over images to `./static/img/`
+
+2. Copy over `./layouts/`, this contains the templates for pages and widgets. When there's a new version of Academic, it's worth going to `./themes/academic/layouts/` to see what the new default templates are. (Do not edit anything in the `./themes/` folder!)
+
+3. Deal with custom CSS. Unlike earlier versions of Hugo Academic, CSS and javascript now go into the `./assets` folder and are called in `params.toml`. See [this discussion\](https://github.com/gcushen/hugo-academic/issues/867). As of [Academic Version 4.6](https://sourcethemes.com/academic/updates/v4.6.0/), the `plugins_css` approach has been depreciated. Compare this to custom JavaScript in `params.toml` which is specified as `plugins_js`; this is the way custom CSS used to be input; now it all goes into a single css file. 
+
+   1. Create a new folder `./assets/scss/` with a file `custom.scss`. 
+   2. Copy and paste your custom CSS into this file. Note that SCSS is a superset of CSS. 
+
+4. Copy over `./content/home/` widgets as appropriate.
+
+   1. `about.html`: comment out the social icons and interests row
+
+   2. Put in UCR logo and funding agencies: is belongs in `./content/authors/admin._index.md` at the bottom of the main content: 
+
+      ```
+      ![logo](./img/logos/UCR.png) ![logo](./img/logos/pna.png) ![logo](./img/logos/uc_seal_lock-up_blue_cmyk.png) ![logo](./img/logos/NASA.png)  ![logo](./img/logos/US-DeptOfEnergy-Seal.png)
+      ```
+
+       If the logo sizes are all messed up, then there was a problem with the CSS defining the logo style.
+      
+   3. Note: you may have to dig into the theme default files to see which CSS attributes you need to modify. For example, the size of the profile picture lives in `.themes/academic/assets/scss/academic/_widgets.scss` as `.avatar{...}`. 
+
+
+
+## Custom Theme
+
+[Customization and creating yoru own theme](https://sourcethemes.com/academic/docs/customization/#custom-theme).
 
 ## Edits from the default theme
 
