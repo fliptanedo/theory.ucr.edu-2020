@@ -1,6 +1,7 @@
-<a class="twitter-timeline"
-  data-height="400"
-  href="https://twitter.com/{{ index .Params 0 }}"
-  data-chrome="transparent">
-    Tweets by UCR HEP Theory
-</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" 
+	data-height="400" 
+	data-dnt="true" 
+	href="https://twitter.com/{{ .Get 0 }}?ref_src=twsrc%5Etfw"
+	data-chrome="transparent">
+		Tweets by UCR_HEP_Theory
+	</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

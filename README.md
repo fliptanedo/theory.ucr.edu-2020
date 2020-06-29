@@ -64,6 +64,8 @@ The latest version of Hugo Academic changes the way [one customizes styles](http
       
    3. Note: you may have to dig into the theme default files to see which CSS attributes you need to modify. For example, the size of the profile picture lives in `.themes/academic/assets/scss/academic/_widgets.scss` as `.avatar{...}`. 
 
+   4. Create a `news.md` file and copy over. Note as of Hugo 0.55 shortcodes no longer work the same way. The call now looks like `{{< twitter UCR_HEP_Theory >}}`, the shortcode now refers to the first argument as `{{ .Get 0 }}`. 
+
 
 
 ## Custom Theme
