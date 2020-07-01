@@ -133,6 +133,20 @@ recenttitle = "Recent PhDs"
   end = "2018"
 
 [[mygroup.faculty]]
+  name = "Mehrdad Phoroutan Mehr" 
+  position = ""
+  photo = "./img/group/template_mehrdad.jpg"
+  website = ""
+  adviser = "Yu"
+  inspire = ""
+  arxiv = ""
+  ads = ""
+  orcid = ""
+  googlescholar = ""
+  github = ""
+  twitter = ""
+
+[[mygroup.faculty]]
   name = "Kuntal Pal"
   position = ""
   photo = "./img/group/template_kuntal.jpg"
@@ -282,19 +296,7 @@ recenttitle = "Recent PhDs"
 +++
 
 <!-- 
-[[mygroup.faculty]]
-  name = "Mehrdad Phoroutan Mehr" 
-  position = ""
-  photo = "./img/group/template_mehrdad.jpg"
-  website = ""
-  adviser = "Yu"
-  inspire = ""
-  arxiv = ""
-  ads = ""
-  orcid = ""
-  googlescholar = ""
-  github = ""
-  twitter = ""
+
 
 [[mygroup.faculty]]
   name = "Guram Vardiashvili" 
